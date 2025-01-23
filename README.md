@@ -17,6 +17,10 @@ Feature Prediction: UnaFold, RNAFold, OligoAnalyzer
 2- AptaNet script for features extraction and prediction
   (a) Languages: Python (for script generation and sequence analysis)
   (b) Libraries: NumPy, SciPy, Matplotlib, Pandas, repDNA
+         #sklearn.model_selection import train_test_split
+         #sklearn.preprocessing import StandardScaler
+         #sklearn.neural_network import MLPClassifier
+         #sklearn.metrics import accuracy_score, classification_report
 3- System Requirements
   (a) Processor: Minimum quad-core processor
   (b) Memory: At least 8 GB RAM
