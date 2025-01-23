@@ -41,3 +41,5 @@ Applications: Cancer treatment, infectious diseases, precision medicine, and tar
   3- After filtering 98 oligonucleotide sequences have been left that are showing interaction and have better interaction probability.
   4- These sequences now been mutated using CHIMERA_NA tool, whose commands can be found in the paper.
   5- Use PredPRBA (ML based scoring function) which will take the .pdb format of modified aptamer sequence and protein complex and predict the binding affinity in kcal/mol.
+  Reference:
+  CHIMERA_NA Tool: Pant, P. (2024). CHIMERA_NA: A Customizable Mutagenesis Tool for Structural Manipulations in Nucleic Acids and Their Complexes. ACS omega, 9(38), 40061-40066.
