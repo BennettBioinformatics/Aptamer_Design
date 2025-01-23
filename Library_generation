@@ -1,1 +1,28 @@
+import csv
+import itertools
+
+# Function to generate all possible DNA sequences of a given length
+def generate_all_combinations(length):
+    # Use itertools.product to generate all combinations of 'A', 'C', 'G', 'U'
+    # Use 'U' when using RNA aptamer and use 'T' when using DNA aptamer
+    return [''.join(combination) for combination in itertools.product('ACGU', repeat=length)]
+
+# Define the length of the DNA sequences
+sequence_length = 15  # Change this to the desired length
+
+# Generate the aptamer library
+aptamer_library = generate_all_combinations(sequence_length)
+
+# Create an output file name with the sequence length included
+output_file = f"aptamer_library_length_{sequence_length}.csv"
+print(f"Saving the aptamer library to {output_file}...")
+
+# Save the library to the CSV file
+with open(output_file, mode="w", newline="") as file:
+    writer = csv.writer(file)
+    writer.writerow(["Aptamer Sequence"])  # Add a header row
+    for sequence in aptamer_library:
+        writer.writerow([sequence])
+
+print(f"Aptamer library saved successfully to {output_file}.")
 
