@@ -11,6 +11,9 @@ Applications: Cancer treatment, infectious diseases, precision medicine, and tar
 1- Databases: PDB database, AptaDB, UTexas Aptamer Database, RNAapt3D
 2- Tools and Software
   (a) Screening Tools: AptaNet, PredPRBA
+  (b) Library generation using python script
+      #import csv
+      #import itertools
   (b) Structure Analysis: UCSF ChimeraX, PyMOL, CHIMERA_NA, 
   (c) Simulation Tools: AMBER, GROMACS, Schrodinger for Molecular Dynamics Software
 Feature Prediction: UnaFold, RNAFold, OligoAnalyzer
