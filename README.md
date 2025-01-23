@@ -29,3 +29,11 @@ Feature Prediction: UnaFold, RNAFold, OligoAnalyzer
   (b) Memory: At least 8 GB RAM
   (c) Storage: 10 GB free disk space
   (d) Operating System: Windows 10, macOS, or Linux
+
+  ##### Case Study results
+  1- Aptamer library generation : 16384 sequnces have been generated of 3HSB RNA aptamer sequence 'AGAGAGA'.
+  2- Virtual screening: AptaNet has been used for virtual screening. 
+     (a) Features extraction and prediction: Features has been extracted on the basis of interaction features such as AAX 9Amino acid composition), k-3mer, PseAAC (Pseudo Amino Acid Composition)  
+                                                           will be extracted. ces having Class 1 and highest interaction probability percentage will be selected for CHIMERA_NA mutation.
+     (b) 
+                    
