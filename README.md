@@ -43,3 +43,4 @@ Applications: Cancer treatment, infectious diseases, precision medicine, and tar
   5- Use PredPRBA (ML based scoring function) which will take the .pdb format of modified aptamer sequence and protein complex and predict the binding affinity in kcal/mol.
   Reference:
   CHIMERA_NA Tool: Pant, P. (2024). CHIMERA_NA: A Customizable Mutagenesis Tool for Structural Manipulations in Nucleic Acids and Their Complexes. ACS omega, 9(38), 40061-40066.
+  PredPRBS link: http://predprba.denglab.org/
