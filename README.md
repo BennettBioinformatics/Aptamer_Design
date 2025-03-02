@@ -41,6 +41,8 @@ Applications: Cancer treatment, infectious diseases, precision medicine, and tar
   3- After filtering 98 oligonucleotide sequences have been left that are showing interaction and have better interaction probability.
   4- These sequences now been mutated using CHIMERA_NA tool, whose commands can be found in the paper.
   5- Use PredPRBA (ML based scoring function) which will take the .pdb format of modified aptamer sequence and protein complex and predict the binding affinity in kcal/mol.
+
+  Note: After the process of complex generation using CHIMERA_NA, the generated complexes were unable to be executed in PredPRBA due to mutations in the aptamer sequence in the initial complex. To overcome this issue, a python script was generated to modify mutated structures and create new complex structures extended with an extension ’ _1’ in PDB format acceptable in PredPRBA. The python script is provided in a supplementary file. After execution of the code, all 98 complexes were fit for execution on PredPRBA for binding affinity prediction. 
   Reference:
   CHIMERA_NA Tool: Pant, P. (2024). CHIMERA_NA: A Customizable Mutagenesis Tool for Structural Manipulations in Nucleic Acids and Their Complexes. ACS omega, 9(38), 40061-40066.
   PredPRBS link: http://predprba.denglab.org/
